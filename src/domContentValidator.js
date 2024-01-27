@@ -5,8 +5,7 @@
 */
 
 function validateDomContent(selector, expectedContent) {
-  const element = document.querySelector(selector)
-  return element ? element.textContent === expectedContent : false
+  // code
 }
 
 // console.log(validateDomContent('#testElement', 'Expected Content')) // Повинно вивести: true
