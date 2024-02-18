@@ -1,4 +1,4 @@
-const isValidUrl = require('./urlValidator')
+import { isValidUrl } from '../main'
 
 describe('URL Validation Tests', () => {
   test('Validates a correct URL', () => {

@@ -1,4 +1,4 @@
-const isValidEmail = require('./emailValidator')
+import { isValidEmail } from '../main'
 
 describe('Email Validation Tests', () => {
   test('Validates a correct email', () => {
